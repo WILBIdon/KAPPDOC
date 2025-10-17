@@ -1,0 +1,67 @@
+{
+  "clientes": {
+    "kino": {
+      "nombre": "KINO COMPANY SAS",
+      "slug": "kino",
+      "admin": {
+        "clave_acceso": "565",
+        "clave_borrado": "0101",
+        "titulo": "KINO COMPANY SAS V1"
+      },
+      "publico": {
+        "logo": "Logo-Kino-KB.png",
+        "titulo": "KINO COMPANY SAS",
+        "descripcion": "Hemos desarrollado esta aplicación para facilitar la consulta de las declaraciones de importación de nuestros productos.",
+        "instrucciones": {
+          "paso1": "Busque el código del producto en el empaque, tablero o en la tapa del reloj.",
+          "paso2": "Ingrese el código del producto en MAYÚSCULAS.",
+          "paso3": "La aplicación arrojará los documentos asociados a dicho código.",
+          "paso4": "Haga clic en \"VER PDF\" para visualizar, compartir o imprimir el documento."
+        },
+        "footer": {
+          "descripcion": "KINO COMPANY S.A.S importador directo de relojería y otros productos.",
+          "ubicacion": "Estamos ubicados en Medellín – Bogotá – Panamá.",
+          "telefono": "+57 318 5640716",
+          "whatsapp": "573185640716",
+          "web": "https://kinocompanysas.kyte.site/es"
+        },
+        "aviso_legal": "Los documentos disponibles en esta plataforma son propiedad exclusiva de <strong>KINO COMPANY S.A.S</strong>. Están destinados únicamente al uso de sus clientes y de las autoridades competentes que los requieran.<br><br>Cualquier uso indebido, reproducción no autorizada o distribución de este material será considerado una infracción legal y podrá ser sancionado conforme a la legislación vigente."
+      }
+    },
+    "cliente2": {
+      "nombre": "EMPRESA DEMO S.A.S",
+      "slug": "cliente2",
+      "admin": {
+        "clave_acceso": "1234",
+        "clave_borrado": "5678",
+        "titulo": "EMPRESA DEMO S.A.S - ADMIN"
+      },
+      "publico": {
+        "logo": "logo-demo.png",
+        "titulo": "EMPRESA DEMO S.A.S",
+        "descripcion": "Consulte aquí las declaraciones de importación de nuestros productos.",
+        "instrucciones": {
+          "paso1": "Busque el código del producto en el empaque.",
+          "paso2": "Ingrese el código en MAYÚSCULAS.",
+          "paso3": "El sistema mostrará los documentos relacionados.",
+          "paso4": "Haga clic en \"VER PDF\" para descargar el documento."
+        },
+        "footer": {
+          "descripcion": "EMPRESA DEMO S.A.S - Importador y distribuidor.",
+          "ubicacion": "Medellín, Colombia.",
+          "telefono": "+57 300 1234567",
+          "whatsapp": "573001234567",
+          "web": "https://empresa-demo.com"
+        },
+        "aviso_legal": "Los documentos disponibles en esta plataforma son propiedad exclusiva de <strong>EMPRESA DEMO S.A.S</strong>. Están destinados únicamente al uso autorizado.<br><br>Cualquier uso no autorizado será sancionado conforme a la ley."
+      }
+    }
+  },
+  "database": {
+    "host": "sql200.infinityfree.com",
+    "dbname": "if0_39064130_buscador",
+    "user": "if0_39064130",
+    "pass": "POQ2ODdvhG",
+    "port": 3306
+  }
+}
